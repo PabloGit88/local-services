@@ -3,7 +3,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html {
 	width: 100%;
-	overflow: hidden;	
+	font-family: Arial, sans-serif;	
+}
+
+a {
+	color: #4c7cbd;
+	text-decoration: none;	
 }
 
 .img-responsive {
@@ -22,9 +27,37 @@ html {
 	top: 70%;
 }
 
+.step1 .fbContent p {
+	text-align: center;
+	font-size: 14px;
+	color: #7e7c7c;
+	margin-top: 14px;
+}
+
 .step1 .facebookButton {
 	max-width: 50%;
 	margin: 0 auto;
 	display: block;
 	text-align: center;
+}
+
+.step1 .bottomContent {
+	width: 100%;
+	position: absolute;
+	bottom: 2%;
+}
+
+.step1 .bottomContent p {
+	font-size: 16px;
+	color: #7e7c7c;
+}
+
+.step1 .bottomContent p:first-child {
+	float: left;
+	margin-left: 2%;
+}
+
+.step1 .bottomContent p:last-child {
+	float: right;
+	margin-right: 2%;
 }
