@@ -1,0 +1,10 @@
+.visual .description span{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ffffff', endColorstr='#30ffffff', GradientType=0 ); /* IE6-9 */}
+.notification-area .panel{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#494c62', endColorstr='#34374a',GradientType=0 ); /* IE6-9 */}
+.notification-area .panel ul { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373947', endColorstr='#282a36',GradientType=0 ); /* IE6-9 */}
+.create-profile .button{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01b956', endColorstr='#01963c',GradientType=0 ); /* IE6-9 */}
+.portfolio ul .hover{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc01ac50', endColorstr='#cc01ac50',GradientType=0 ); /* IE6-9 */}
+.posttask-need .button{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6d6d', endColorstr='#4e5052', GradientType=0 ); /* IE6-8 */}
+.popular-services .services .button{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb7f1d', endColorstr='#fa5d16', GradientType=0 ); /* IE6-8 */}
+.posttask-block form input[type="submit"] {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71ad1e', endColorstr='#4b8815', GradientType=0 ); /* IE6-8 */}
+.faqs .posttaskbtn {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71ad1e', endColorstr='#4b8815', GradientType=0 ); /* IE6-8 */}
+#footer .contact .img-holder .on-hover{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ffffff', endColorstr='#30ffffff',GradientType=0 ); /* IE6-9 */}
