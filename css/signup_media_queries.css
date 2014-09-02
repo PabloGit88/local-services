@@ -572,6 +572,9 @@
 	.step9 select {
 		width: 100%;
 	}
+	.step13 .right .formGroup > select {
+		padding: 4px;
+	}
 	
 }
 
