@@ -197,10 +197,50 @@ html.signup2 .input {
 }
 
 /*** STEP 3 ***/
+.step3 .faded {
+	background: #fafafa;
+	padding: 30px;
+}
+
+.step3 h2 {
+	margin: 0;
+	text-align: center;
+}
+
+.step3 h3 {
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	max-width: 70%;
+	margin: 30px auto 20px auto;
+}
+
+.step3 .imageHolder {
+	width: 100%;
+}
+
+.step3 .imageHolder img {
+	max-width: 60%;
+	margin: 0 auto;
+	display: block;
+}
+
+.step3 h4 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 24px;
+}
+
+.step3 .information {
+	font-size: 14px;
+	max-width: 70%;
+	text-align: center;
+	margin: 0 auto 30px auto;
+}
+
 .step3 .continueContent {
 	width: 100%;
-	position: absolute;
-	top: 85%;
 }
 
 .step3 .continueButton {
@@ -289,6 +329,7 @@ font-weight: bold;
 	float:left;
 	width: 100%;
 	color: #a3a2a2;
+	font-size: 14px;
 	box-shadow: inset 0 0 0 1px #edecec;
 }	
 
@@ -509,8 +550,11 @@ font-weight: bold;
 
 
 
-
 /*** STEP 7 ***/
+.step7 {
+	font-size: 14px;
+}
+
 .step7 h2{
 	font-size: 35px;
 	color: #000000;
@@ -1096,11 +1140,12 @@ font-weight: bold;
 }	
 
 .step13 .right .formGroup > div #cityCode  {
-	width: 13%;	
+	width: 21%;	
 }
 
 .step13 .right .formGroup > div #phoneNumber  {
 	width: 70%;	
+	padding:0;
 }	
 
 .step13 .actions a {
