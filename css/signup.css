@@ -135,7 +135,62 @@ html.signup2 .input {
 .step1 .headerContent .green {
 	color: #00a243;
 }
-	
+
+.step1 .greenContent {	
+	position: absolute;
+	color: #FFFFFF;
+	top: 207px;
+	width: 360px;
+	left: 158px;
+}
+
+.step1 .greenContent .text1 {	
+	font-size: 21px;
+	margin: 5px 0 0 5px;
+}
+
+.step1 .greenContent .line2 .price {	
+	float: left;
+	font-size: 73px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.step1 .greenContent .line2 .credits {	
+	font-size: 22px;
+	line-height: 30px;
+	padding-top: 8px;
+}
+
+.step1 .greenContent .line2 .imageContainer {	
+	margin: 10px auto 10px auto;
+}
+
+.step1 .greenContent .line2 .imageContainer img {	
+	margin: 0 auto;
+	display: block;
+}
+
+.step1 .greenContent .text3 {	
+	font-size: 24px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.step1 .greenContent .text4 {	
+	font-size: 24px;
+	margin-right: 10px;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.step1 .greenContent .text5 {	
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: right;
+	margin-right: 15px;
+}
+
 .step1 .fbContent {
 	width: 100%;
 	position: absolute;

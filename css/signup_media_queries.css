@@ -6,6 +6,38 @@
 	.step1 .headerContent h2 {
 		margin: 10px auto 10px auto;
 	}
+	.step1 .greenContent {
+		top: 107px;
+		width: 185px;
+		left: 82px;
+	}
+	.step1 .greenContent .text1 {
+		font-size: 10px;
+		margin: 5px 0 0 5px;
+	}
+	.step1 .greenContent .line2 .price {
+		font-size: 33px;
+	}
+	.step1 .greenContent .line2 .credits {
+		font-size: 9px;
+		line-height: 10px;
+	}
+	.step1 .greenContent .line2 .imageContainer {
+		height: 23px;
+		margin: 5px auto 5px auto;
+	}
+	.step1 .greenContent .line2 .imageContainer img {
+		height: 100%;
+	}
+	.step1 .greenContent .text3 {
+		font-size: 12px;
+	}
+	.step1 .greenContent .text4 {
+		font-size: 12px;
+	}
+	.step1 .greenContent .text5 {
+		font-size: 9px;
+	}
 	.step1 .bottomContent p {
 		font-size: 12px;
 	}
