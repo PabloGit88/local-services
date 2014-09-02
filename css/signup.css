@@ -141,3 +141,16 @@ a {
 	display: block;
 	text-align: center;
 }
+/*** STEP 3 ***/
+.step3 .continueContent {
+	width: 100%;
+	position: absolute;
+	top: 85%;
+}
+
+.step3 .continueButton {
+	max-width: 50%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
