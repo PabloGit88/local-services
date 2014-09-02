@@ -342,14 +342,14 @@ font-weight: bold;
 	color: #0dae4f;
 }
 
-.step5 .insuranceCertificate, .step8 .qualificationCertificate, .step15 .utilityBill {
+.step5 .insuranceCertificate, .step8 .qualificationCertificate, .step15 .utilityBill, .step16 .passportLicence {
 	background: #FFFFFF;
 	border: 1px solid #edecec;
 	border-radius: 5px;
 	padding: 30px 25px;
 }
 
-.step5 .insuranceCertificate label, .step8 .qualificationCertificate label, .step15 .utilityBill label {
+.step5 .insuranceCertificate label, .step8 .qualificationCertificate label, .step15 .utilityBill label, .step16 .passportLicence label {
 	float: left;
 	background: url(../images/signup/step5_ico.png) no-repeat;
 	font-size: 14px;
@@ -360,13 +360,13 @@ font-weight: bold;
 	padding-left: 50px;
 }
 
-.step5 .insuranceCertificate .inputFile, .step8 .qualificationCertificate .inputFile, .step15 .utilityBill .inputFile {
+.step5 .insuranceCertificate .inputFile, .step8 .qualificationCertificate .inputFile, .step15 .utilityBill .inputFile, .step16 .passportLicence .inputFile {
 	float: right;
 	width: 20%;
 	height: 30px;
 }
 
-.step5 .insuranceCertificate .inputFile button, .step8 .qualificationCertificate .inputFile button, .step15 .utilityBill .inputFile button {
+.step5 .insuranceCertificate .inputFile button, .step8 .qualificationCertificate .inputFile button, .step15 .utilityBill .inputFile button, .step16 .passportLicence .inputFile button {
 	background: url(../images/signup/upload.png) no-repeat center center;
 	background-size: contain;
 	width: 100%;
@@ -374,13 +374,13 @@ font-weight: bold;
 	border: none;
 }
 
-.step5 .box .formats, .step8 .box .formats, .step15 .box .formats {
+.step5 .box .formats, .step8 .box .formats, .step15 .box .formats, .step16 .box .formats {
 	font-size: 12px;
 	color: #9a9a9a;
 	margin-top: 10px;
 }
 
-.step5 .box h4, .step8 .box h4, .step15 .box h4 {
+.step5 .box h4, .step8 .box h4, .step15 .box h4, .step16 .box h4 {
 	font-size: 14px;
 	font-weight: bold;
 	margin-top: 30px;
@@ -391,7 +391,7 @@ font-weight: bold;
 	height: 20px;
 }
 
-.step5 .box .why, .step8 .box .why, .step15 .box .why {
+.step5 .box .why, .step8 .box .why, .step15 .box .why, .step16 .box .why {
 	color: #9a9a9a;
 	margin-top: 14px;
 	padding-bottom: 14px;
@@ -1238,4 +1238,64 @@ font-weight: bold;
 .step15 .utilityBill label {
 	line-height: 15px;
 	font-weight: normal;
+}
+
+
+
+/** STEP 16 **/
+
+.step16 h2{
+	margin-bottom: 40px;
+}
+
+.step16 .accepted {
+	border-bottom: 2px solid #ecebeb;
+	padding-bottom: 15px;
+}
+
+.step16 .accepted p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.step16 .documents{
+	margin-top: 10px;
+}
+
+.step16 .documents .passport{
+	width:50%;
+	float:left;
+}
+
+.step16 .documents .licence{
+	width:50%;
+	float:right;
+}
+
+.step16 .documents .passport p, .step16 .documents .licence p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	padding: 11px 0;
+}
+
+.step16 .country{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	margin: 55px 0;
+}
+.step16 .country label{
+	float: left;
+	width: 30%;
+	padding-left: 8%;
+	padding-top: 14px;
+}
+
+.step16 .country select{
+	width:59%;
+	float:right;
 }
