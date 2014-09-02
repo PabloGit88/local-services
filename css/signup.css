@@ -11,6 +11,10 @@ html {
 	background: #FFFFFF;
 }
 
+html.signup2 {
+	background: #fafafa;
+}
+
 body {
 	padding: 0 30px 20px 30px;
 }
@@ -46,6 +50,10 @@ h2 {
 	margin: 0;
 	padding-left: 20px;
 	color: #7e7c7c;
+}
+
+html.signup2 .input {
+	background: #fcfcfc;
 }
 
 .select {
@@ -276,11 +284,12 @@ font-weight: bold;
 
 
 .profileProgress p{
-	line-height: 49px;
+	line-height: 47px;
 	text-align: center;
 	float:left;
 	width: 100%;
 	color: #a3a2a2;
+	box-shadow: inset 0 0 0 1px #edecec;
 }	
 
 
@@ -825,6 +834,77 @@ font-weight: bold;
 .step11 .actions a.continue {
 	background-image: url(../images/signup/continue2.png);
 }
+
+/*** STEP 12 ***/
+.step12 .signupDetails {
+	padding-top: 8%;
+}
+
+
+.step12 .fields {
+   height: auto;
+   overflow: hidden;
+	
+}
+
+.step12 .left {
+    float: left; /* not needed, just for clarification */
+    /* the next props are meant to keep this block independent from the other floated one */
+    width: 30%;
+    overflow: hidden;
+}
+
+.step12 .right {
+	width: 70%;
+    float: right;
+}	
+
+.step12 .right .formGroup  {
+	padding-top: 3%;
+}	
+
+.step12  .right .formGroup > div:first-child {
+	width: 30%;	
+	float:left;
+	line-height: 46px;
+}	
+
+.step12  .right .formGroup > div:last-child  {
+	float:right;
+	width: 68%;	
+}	
+
+.step12  .right .formGroup > div:last-child  select {
+	width: 100%;	
+}	
+
+
+.step12  .right .formGroup > label {
+	float:left;
+	line-height: 46px;
+	width: 30%;	
+	text-align: left;
+}	
+
+.step12  .right .formGroup > input {
+	width: 63%;
+	float:right;
+}	
+
+.step12  .right .formGroup > select {
+	width: 68%;
+	float:right;
+}	
+
+.step12 .right .formGroup > div #cityCode  {
+	width: 13%;	
+
+}
+
+.step12 .right .formGroup > div #phoneNumber  {
+	width: 70%;	
+
+}	
 
 
 /*** MEDIA QUERYS **/
