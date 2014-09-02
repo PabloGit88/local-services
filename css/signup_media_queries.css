@@ -1,4 +1,22 @@
 /*** MEDIA QUERYS **/
+@media screen and (max-width: 635px) {
+	.step1 .headerContent {
+		top: 5px;
+	}
+	.step1 .headerContent h2 {
+		margin: 10px auto 10px auto;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.step2 h1 {
+		font-size: 30px
+	}
+	.step2 h3 {
+		font-size: 14px
+	}
+}
+
 @media screen and (max-width: 620px) {
 	.step6  .right {
 		width: 100%;

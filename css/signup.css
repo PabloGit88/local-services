@@ -16,7 +16,7 @@ html.signup2 {
 }
 
 body {
-	padding: 0 30px 20px 30px;
+	padding: 20px 30px 20px 30px;
 }
 
 a {
@@ -103,6 +103,39 @@ html.signup2 .input {
 
 
 /*** STEP 1 ***/
+.step1 .headerContent {
+	position: absolute;
+	top: 30px;
+}
+
+.step1 .headerContent h1 {
+	color: #000000;
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.step1 .headerContent h2 {
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin: 15px auto 15px auto;
+}
+
+.step1 .headerContent h4 {
+	color: #4d4b4b;
+	font-size: 24px;
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.step1 .headerContent .green {
+	color: #00a243;
+}
+	
 .step1 .fbContent {
 	width: 100%;
 	position: absolute;
@@ -145,6 +178,26 @@ html.signup2 .input {
 }
 
 /*** STEP 2 ***/
+.step2 .headerContent {
+	border-bottom: 1px solid #5773b1;
+	padding-bottom: 16px;
+	padding-left: 90px;
+	background: url(../images/signup/target.png) no-repeat left center;
+}
+
+.step2 h1 {
+	display: inline;
+	font-size: 50px;
+	color: #8d8d8d;
+	border-bottom: 2px solid #d9d7d7;
+}
+
+.step2 h3 {
+	font-size: 18px;
+	color: #999797;
+	margin-top: 14px;
+}
+
 .step2 .signupDetails {
 	width: 60%;
 	float: left;
