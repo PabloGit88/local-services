@@ -124,7 +124,21 @@
 		width: 60%;	
 		padding:0;
 	}
-	
+}
+
+@media screen and (max-width: 550px) {
+
+	.step14 .left {
+  
+    /* the next props are meant to keep this block independent from the other floated one */
+    width: 100%;
+    overflow: hidden;
+}
+
+.step14 .right {
+	width: 100%;
+
+}	
 	
 }
 
