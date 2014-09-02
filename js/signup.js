@@ -1,3 +1,8 @@
+function goTop()
+{
+	$('html, body').animate({ scrollTop: 0 }, 'fast');
+};
+
 $(function() {
 	$('.user-area li a').magnificPopup({
 		type: 'iframe',
