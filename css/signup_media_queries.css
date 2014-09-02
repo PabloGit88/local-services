@@ -26,17 +26,17 @@
 	}
 	.step1 .greenContent .line2 .imageContainer {
 		height: 20px;
-		margin: 8px auto 8px auto;
+		margin: 6px auto 6px auto;
 	}
 	.step1 .greenContent .line2 .imageContainer img {
 		height: 100%;
 	}
 	.step1 .greenContent .text3 {
-		font-size: 8px;
+		font-size: 10px;
 		margin-right: 0;
 	}
 	.step1 .greenContent .text4 {
-		font-size: 8px;
+		font-size: 10px;
 		margin-right: 0;
 	}
 	.step1 .greenContent .text5 {
@@ -442,7 +442,7 @@
 		background-size: contain;
 		line-height: 17px;
 		display: inline-block;
-		padding-left: 66px;
+		padding-left: 40px;
 	}
 
 	.step5 .insuranceCertificate .inputFile, .step8 .qualificationCertificate .inputFile, .step15 .utilityBill .inputFile, .step16 .passportLicence .inputFile {
