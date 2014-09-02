@@ -139,9 +139,9 @@ html.signup2 .input {
 .step1 .greenContent {	
 	position: absolute;
 	color: #FFFFFF;
-	top: 207px;
-	width: 360px;
-	left: 158px;
+	top: 187px;
+	width: 330px;
+	left: 145px;
 }
 
 .step1 .greenContent .text1 {	
@@ -157,13 +157,13 @@ html.signup2 .input {
 }
 
 .step1 .greenContent .line2 .credits {	
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 30px;
 	padding-top: 8px;
 }
 
 .step1 .greenContent .line2 .imageContainer {	
-	margin: 10px auto 10px auto;
+	margin: 5px auto 5px auto;
 }
 
 .step1 .greenContent .line2 .imageContainer img {	
@@ -172,21 +172,21 @@ html.signup2 .input {
 }
 
 .step1 .greenContent .text3 {	
-	font-size: 24px;
+	font-size: 20px;
 	text-align: right;
 	margin-right: 10px;
 }
 
 .step1 .greenContent .text4 {	
-	font-size: 24px;
+	font-size: 20px;
 	margin-right: 10px;
 	text-align: right;
 	text-decoration: underline;
 }
 
 .step1 .greenContent .text5 {	
-	font-size: 16px;
-	margin-top: 10px;
+	font-size: 14px;
+	margin-top: 8px;
 	text-align: right;
 	margin-right: 15px;
 }
@@ -259,8 +259,50 @@ html.signup2 .input {
 }
 
 .step2 .signupFacebook {
-	width: 40%;
+	width: 37%;
 	float: right;
+	padding-left: 10px;
+}
+
+.step2 .signupFacebook .text1 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.step2 .signupFacebook .text2 {
+	font-size: 28px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.step2 .signupFacebook .text3 {
+	font-size: 35px;
+	text-align: center;
+	color: #686666;
+	margin-bottom: 10px;
+}
+
+.step2 .signupFacebook .text4Content {
+	background: url(../images/signup/arrow.png) no-repeat right center;
+	background-size: contain;
+	padding: 13px 0;
+}
+
+.step2 .signupFacebook .text4 {
+	color: #999797;
+	text-align: left;
+	width: 85%;
+}
+
+.step2 .signupFacebook .blue {
+	color: #4e6bad;
+}
+
+.step2 .signupFacebook .green {
+	color: #00a243;
 }
 
 .step2 .formText {
@@ -961,16 +1003,23 @@ font-weight: bold;
 	font-size: 20px;
 	font-weight: bold;
 	color: #000000;
-	line-height: 0px;
-	width: 35%;
+	line-height: 26px;
+	width: 70%;
 	float: left;
-	margin-top: 37px;
+	margin-top: 0;
 	margin-left: 9%;
 }
-
+.step9 .availability_row .item .container{
+	float: right;
+	width: 60%;
+	margin-top: 26px;
+}
+.step9 .availability_row .item .checkboxContainer{
+	display: inline-block;
+	width: 100%;
+}
 .step9 .availability_row .item .checkboxs{
-	position: absolute;
-	right: 4px;
+	float:right;
 }
 
 .step9 .availability_row .item .checkbox input{
@@ -979,22 +1028,9 @@ font-weight: bold;
 	margin-top:50px;
 }
 
-.step9 .availability_row .item .checkbox1 input{
+.step9 .availability_row .item .checkboxs input{
 	width: 31px;
 	height: 26px;
-	margin-top:24px;
-}
-
-.step9 .availability_row .item .checkbox2 input{
-	width: 31px;
-	height: 26px;
-	margin-top: 63px
-}
-
-.step9 .availability_row .item .checkbox3 input{
-	width: 31px;
-	height: 26px;
-	margin-top: 101px;
 }
 .step9 .availability_row .item .image_calendar{	
 	background-image: url(../images/signup/step9_calendar.png);
