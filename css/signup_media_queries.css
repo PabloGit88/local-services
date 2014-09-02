@@ -60,6 +60,77 @@
 	}
 }
 
+@media screen and (max-width: 550px) {
+	.step12 .left {
+	   /* not needed, just for clarification */
+	    /* the next props are meant to keep this block independent from the other floated one */
+	    width: 100%;
+	    overflow: hidden;
+	}
+
+	.step12 .right {
+		width: 100%;
+	}	
+	
+	.step12 .right .formGroup > div #phoneNumber  {
+	width: 70%;	
+	padding:0;
+
+	}	
+	
+	.step12  .right .formGroup > label {
+	float:left;
+	line-height: 46px;
+	width: 30%;	
+	text-align: left;
+	font-size: 14px;
+
+	}	
+}
+
+
+@media screen and (max-width: 720px) {
+	.step13 .left {
+	    width: 100%;
+	    overflow: hidden;
+	}
+	.step13 .right {
+		width: 100%;
+	}	
+	
+	.step13  .right .formGroup > label {
+	float:left;
+	line-height: 19px;
+	width: 30%;		
+	text-align: left;
+	font-size: 13px;
+	}	
+	
+	.step13  .right .formGroup > input {
+		width: 63%;
+		float:right;
+	}	
+	
+	.step13  .right .formGroup > select {
+		width: 68%;
+		float:right;
+	}	
+	
+	.step13 .right .formGroup > div #cityCode  {
+		width: 15%;	
+	}
+	
+	.step13 .right .formGroup > div #phoneNumber  {
+		width: 60%;	
+		padding:0;
+	}
+	
+	
+}
+
+
+
+
 
 
 

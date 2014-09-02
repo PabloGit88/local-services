@@ -1096,11 +1096,12 @@ font-weight: bold;
 }	
 
 .step13 .right .formGroup > div #cityCode  {
-	width: 13%;	
+	width: 21%;	
 }
 
 .step13 .right .formGroup > div #phoneNumber  {
 	width: 70%;	
+	padding:0;
 }	
 
 .step13 .actions a {
