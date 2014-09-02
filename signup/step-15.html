@@ -1,0 +1,59 @@
+<!doctype html>
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Signup - Local service Pro</title>
+	<link type="text/css" rel="stylesheet" href="../css/signup.css" media="all">
+	<link type="text/css" rel="stylesheet" href="../css/signup_media_queries.css" media="all">
+</head>
+<body>
+	<div id="wrapper" class="step15">
+		<h2>Address Verification</h2>
+		
+		<p class="addressVerificationIntroText">
+			Please upload a colored copy of a recent utility bill or bank statement for address verification. <br>
+			<a href="#">See example</a>
+		</p>
+		
+		<form action="#" method="post">
+			<div class="box">
+				<div class="addressContent">
+					<img src="../images/signup/verification.png">
+				</div>
+				
+				<div class="utilityBill clearfix">
+					<label for="address_verification"><strong class="bold">Utility Bill, or</strong> <br>Bank / Credit card statement</label>
+					<div class="inputFile">
+						<button></button>
+						<input id="address_verification" type="file">
+					</div>
+				</div>
+				<p class="formats">* File format must be PDF or JPEG, minimal resolution must be 300dpi</p>
+				
+				<h4>Why do we ask this?</h4>
+				<p class="why">
+					We are required to ensure that our clients<br> 
+					invest within their means.<br>
+					Rest assured, this information is kept strictly confidential.
+				</p>
+			</div>
+		</form>
+		<div class="profileProgress clearfix">
+			<a href="step-14.html" ><img src="../images/signup/leftarrow.png" class="img-responsive"></a>
+			<p> <span class="bold">50%</span> Completed Profile </p>
+			<a href="step-16.html" ><img src="../images/signup/rigtharrow.png" class="img-responsive"></a>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="../js/flowtype.js"></script>
+	<script type="text/javascript">
+	$('body').flowtype({
+		   minFont :5,
+		   maxFont : 16,
+		   fontRatio : 20
+		}
+	);
+	</script>
+</body>
+</html>
