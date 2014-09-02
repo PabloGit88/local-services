@@ -1032,34 +1032,189 @@ font-weight: bold;
 
 }	
 
-
-/*** MEDIA QUERYS **/
-@media screen and (max-width: 620px) {
-	.step6  .right {
-		width: 100%;
-		float: left;
-	}
-	.step6  .right .formGroup>div #phoneNumber {
-		width: 70%;
-		padding: 0;
-	}
-	.step6 .left {
-		 /* not needed, just for clarification */
-		/* the next props are meant to keep this block independent from the other floated one */
-		width: 100%;
-		padding-left: 40%;
-		overflow: hidden;
-	}
+/*** STEP 13 ***/
+.step13 h2 {
+	margin-bottom: 25px;
 }
 
-@media screen and (max-width: 550px) {
-	.step7 .skills_row .item:first-child {
+.step13 .signupDetails {
+	padding-top: 8%;
+}
+
+.step13 .fields {
+   height: auto;
+   overflow: hidden;
 	
-		width:100%;
-	}
-	
-	.step7 .skills_row .item:last-child {
-	
-		width:100%;
-	}
+}
+
+.step13 .left {
+    float: left; /* not needed, just for clarification */
+    /* the next props are meant to keep this block independent from the other floated one */
+    width: 30%;
+    overflow: hidden;
+}
+
+.step13 .right {
+	width: 70%;
+    float: right;
+}	
+
+.step13 .right .formGroup  {
+	padding-top: 3%;
+}	
+
+.step13  .right .formGroup > div:first-child {
+	width: 30%;	
+	float:left;
+	line-height: 46px;
+}	
+
+.step13  .right .formGroup > div:last-child  {
+	float:right;
+	width: 68%;	
+}	
+
+.step13  .right .formGroup > div:last-child  select {
+	width: 100%;	
+}	
+
+.step13  .right .formGroup > label {
+	float:left;
+	line-height: 46px;
+	width: 30%;	
+	text-align: left;
+}	
+
+.step13  .right .formGroup > input {
+	width: 63%;
+	float:right;
+}	
+
+.step13  .right .formGroup > select {
+	width: 68%;
+	float:right;
+}	
+
+.step13 .right .formGroup > div #cityCode  {
+	width: 13%;	
+}
+
+.step13 .right .formGroup > div #phoneNumber  {
+	width: 70%;	
+}	
+
+.step13 .actions a {
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+	width: 45%;
+	height: 51px;
+	display: block;
+	float: left;
+}
+
+.step13 .actions a.sendSmsButton {
+	background-image: url(../images/signup/sendsms.png);
+}
+
+.step13 .actions a.sendVoiceCallButton {
+	background-image: url(../images/signup/voicecall.png);
+	float: right;
+}
+
+.step13 p.verify {
+	font-size: 16px;
+}
+
+.step13 p.verify a {
+	color: #11b153;
+}
+
+/*** STEP 14 ***/
+.step14 h2 {
+	margin-bottom: 25px;
+}
+
+.step14 .signupDetails {
+	padding-top: 8%;
+}
+
+.step14 .fields {
+   height: auto;
+   overflow: hidden;
+}
+
+.step14 .left {
+    float: left; /* not needed, just for clarification */
+    /* the next props are meant to keep this block independent from the other floated one */
+    width: 30%;
+    overflow: hidden;
+}
+
+.step14 .right {
+	width: 70%;
+    float: right;
+}	
+
+.step14 .right .formGroup  {
+	padding-top: 3%;
+}	
+
+.step14  .right .formGroup > div:first-child {
+	width: 30%;	
+	float:left;
+	line-height: 46px;
+}	
+
+.step14 .right .formGroup > div:last-child  {
+	float:right;
+	width: 68%;	
+}	
+
+.step14 .right .formGroup > div:last-child  select {
+	width: 100%;	
+}	
+
+.step14 .right .formGroup > label {
+	float:left;
+	line-height: 46px;
+	width: 30%;	
+	text-align: left;
+}	
+
+.step14 .right .formGroup > input {
+	width: 63%;
+	float:right;
+}	
+
+.step14 .right .formGroup > select {
+	width: 68%;
+	float:right;
+}	
+
+.step14 .right .formGroup.verifyText {
+	margin: 20px 0;
+}
+
+.step14 .actions a {
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+	width: 45%;
+	height: 51px;
+	display: block;
+	float: left;
+}
+
+.step14 .actions a.verifyButton {
+	background-image: url(../images/signup/verify.png);
+}
+
+.step14 p.verify {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.step14 p.verify a {
+	color: #11b153;
 }
