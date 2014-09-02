@@ -11,6 +11,10 @@ html {
 	background: #FFFFFF;
 }
 
+body {
+	padding: 0 30px 20px 30px;
+}
+
 a {
 	color: #4c7cbd;
 	text-decoration: none;	
