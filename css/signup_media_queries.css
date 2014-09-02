@@ -6,6 +6,9 @@
 	.step1 .headerContent h2 {
 		margin: 10px auto 10px auto;
 	}
+	.step1 .bottomContent p {
+		font-size: 12px;
+	}
 }
 
 @media screen and (max-width: 550px) {
