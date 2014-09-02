@@ -140,8 +140,8 @@ html.signup2 .input {
 	position: absolute;
 	color: #FFFFFF;
 	top: 187px;
-	width: 330px;
-	left: 145px;
+	width: 318px;
+	left: 142px;
 }
 
 .step1 .greenContent .text1 {	
@@ -172,13 +172,13 @@ html.signup2 .input {
 }
 
 .step1 .greenContent .text3 {	
-	font-size: 20px;
+	font-size: 18px;
 	text-align: right;
 	margin-right: 10px;
 }
 
 .step1 .greenContent .text4 {	
-	font-size: 20px;
+	font-size: 18px;
 	margin-right: 10px;
 	text-align: right;
 	text-decoration: underline;
@@ -186,7 +186,7 @@ html.signup2 .input {
 
 .step1 .greenContent .text5 {	
 	font-size: 14px;
-	margin-top: 8px;
+	margin-top: 4px;
 	text-align: right;
 	margin-right: 15px;
 }
