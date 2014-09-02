@@ -147,9 +147,6 @@
 
 
 @media screen and (max-width: 550px) {
-	.step15 .addressContent label {
-		width: 100%;
-	}
 	
 	 .step15 .utilityBill  .inputFile{
 	 	width: 100%;
@@ -157,6 +154,7 @@
 	
 	.step15 .addressContent label {
 	 font-size: 12px;
+	 width: 100%;
 	}
 	
 	.step15 .box .addressContent img {
@@ -165,6 +163,50 @@
 	display: block;
 	}
 	
+}
+
+@media screen and (max-width: 550px) {
+	 #wrapper > h2 {
+	 	font-size:  22px;
+	 	width: 100%;
+	 	padding-left: 8%;
+	 	
+	}
+}
+@media screen and (max-width: 550px) {
+	 .step16 .passportLicence   .inputFile{
+	 	width: 100%;
+	}
+	
+	.step16 .passportLicence  label {
+	 font-size: 12px;
+	 padding-left: 55%;
+	}
+	
+	.step16 .box .passportLicence img {
+	max-width: 100%;
+	margin: 10px auto 20px auto;
+	display: block;
+	}
+	
+	
+	.step16 .documents .passport{
+		width:100%;
+		
+	}
+	
+	.step16 .documents .licence{
+		width:100%;
+	}
+	
+	.step16 .country label
+	{
+		width:100%;
+	}
+	
+	.step16 .country select{
+		width:100%;
+	}
 }
 
 
