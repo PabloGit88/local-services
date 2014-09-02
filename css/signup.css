@@ -845,3 +845,15 @@ font-weight: bold;
 		overflow: hidden;
 	}
 }
+
+@media screen and (max-width: 550px) {
+	.step7 .skills_row .item:first-child {
+	
+		width:100%;
+	}
+	
+	.step7 .skills_row .item:last-child {
+	
+		width:100%;
+	}
+}
