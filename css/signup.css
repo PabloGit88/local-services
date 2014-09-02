@@ -453,8 +453,17 @@ font-weight: bold;
 }	
 
 .step4  .right .formGroup .radios {
-	width: 60%;
-}	
+	width: 70%;
+	float: right;
+}
+
+.step4  .right .formGroup .radios > input, .step4  .right .formGroup .radios > label {
+	float: left;
+}
+
+.step4  .right .formGroup .radios > input#female {
+	margin-left: 12px;
+}
 
 .profileProgress  {
 	width: 100%;

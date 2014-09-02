@@ -353,6 +353,10 @@
 	.step4  .right .radios  {
 		padding-top: 3%;
 	}	
+	
+	.step4  .right .formGroup .radios > input, .step4  .right .formGroup .radios > label {
+		float: none;
+	}
 
 	.step4  .right .formGroup > label , .step6  .right .formGroup > label , .step12  .right .formGroup > label  {
 		font-size: medium;
@@ -364,7 +368,7 @@
 	
 	.step4  .right .formGroup > input , .step6  .right .formGroup > input , .step6  .right .formGroup > select , .step12  .right .formGroup > input , .step12  .right .formGroup > select { 
 		width: 100%;
-		
+		float:none;
 	}	
 	
 	.step4  .right .formGroup .radios {
