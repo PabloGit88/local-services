@@ -8,6 +8,7 @@ html {
 	font-family: Arial, sans-serif;	
 	font-size: 14px;
 	color: #7e7c7c;
+	background: #FFFFFF;
 }
 
 a {
@@ -17,6 +18,13 @@ a {
 
 .droidFont {
 	font-family: 'Droid Sans', sans-serif;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: bold;
+	color: #464545;	
+	margin-top: 30px;
 }
 
 /* new clearfix */
@@ -36,8 +44,39 @@ a {
 	color: #7e7c7c;
 }
 
+.select {
+	overflow: hidden;
+	background: url(../images/signup/select_arrow.png) no-repeat right #f7f7f7;
+	-webkit-appearance: none;	
+}
+
 .img-responsive {
 	max-width: 100%;	
+}
+
+.inputFile {
+	position: relative;
+	overflow: hidden;
+}
+.inputFile input {
+	cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.box {
+	background: #f7f7f7;
+	border: 1px solid #edecec;
+	border-radius: 5px;
+	padding: 16px 20px;
 }
 
 #wrapper {
@@ -48,7 +87,6 @@ a {
 
 
 /*** STEP 1 ***/
-
 .step1 .fbContent {
 	width: 100%;
 	position: absolute;
@@ -141,6 +179,7 @@ a {
 	display: block;
 	text-align: center;
 }
+
 /*** STEP 3 ***/
 .step3 .continueContent {
 	width: 100%;
@@ -153,4 +192,114 @@ a {
 	margin: 0 auto;
 	display: block;
 	text-align: center;
+}
+
+/*** STEP 5 ***/
+.step5 {
+	color: #626060;
+}
+
+.step5 .insuranceCover {
+	width: 50%;
+	font-size: 16px;
+	margin-top: 56px;
+	margin-bottom: 30px;
+}
+
+.step5 .insuranceCover select {
+	width: 100%;
+	color: #383737;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.step5 .insuranceFields {
+	margin-bottom: 30px;
+}
+
+.step5 .insuranceFields .form-group {
+	margin-bottom: 18px;
+}
+
+.step5 .insuranceFields .form-group label {
+	float: left;
+	width: 45%;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 46px;
+}
+
+.step5 .insuranceFields .form-group input {
+	float: left;
+	width: 45%;
+}
+
+.step5 .insuranceUploadTitle {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.step5 .insuranceUploadTitle a {
+	color: #0dae4f;
+}
+
+.step5 .insuranceCertificate {
+	background: #FFFFFF;
+	border: 1px solid #edecec;
+	border-radius: 5px;
+	padding: 30px 25px;
+}
+
+.step5 .insuranceCertificate label {
+	float: left;
+	background: url(../images/signup/step5_ico.png) no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	background-size: contain;
+	line-height: 30px;
+	display: inline-block;
+	padding-left: 50px;
+}
+
+.step5 .insuranceCertificate .inputFile {
+	float: right;
+	width: 20%;
+	height: 30px;
+}
+
+.step5 .insuranceCertificate .inputFile button {
+	background: url(../images/signup/upload.png) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.step5 .box .formats {
+	font-size: 12px;
+	color: #9a9a9a;
+	margin-top: 10px;
+}
+
+.step5 .box h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 30px;
+	background: url(../images/signup/locked.png) no-repeat left center;
+	background-size: contain;
+	padding-left: 25px;
+	line-height: 20px;
+	height: 20px;
+}
+
+.step5 .box .why {
+	color: #9a9a9a;
+	margin-top: 14px;
+	padding-bottom: 14px;
+}
+
+.step5 .padlock {
+	position: absolute;
+	right: 0;
+	max-width: 26%;
 }

@@ -1,0 +1,61 @@
+<!doctype html>
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Signup - Local service Pro</title>
+	<link type="text/css" rel="stylesheet" href="../css/signup.css" media="all">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<div id="wrapper" class="step5">
+		<h2>Liability Insurance Cover</h2>
+		<img src="../images/signup/step5_padlock.jpg" class="padlock">
+		
+		<form action="#" method="post">
+			<div class="insuranceCover">
+				<label for="insurance_cover">Do you have public liability insurance cover:</label>
+				<select id="insurance_cover" name="insurance_cover" class="input select">
+					<option>YES</option>
+					<option>NO</option>
+				</select>
+			</div>
+			<div class="insuranceFields">
+				<div class="form-group clearfix">
+					<label for="insurance_provider">Insurance Provider</label>
+					<input type="text" id="insurance_provider" name="insurance_provider" class="input droidFont">
+				</div>
+				<div class="form-group clearfix">
+					<label for="insurance_total_amount">Total Amount of Insurance covered</label>
+					<input type="text" id="insurance_total_amount" name="insurance_total_amount" class="input droidFont" placeholder="&pound;">
+				</div>
+				<div class="form-group clearfix">
+					<label for="insurance_valid_from">Insurance Valid From</label>
+					<input type="text" id="insurance_valid_from" name="insurance_valid_from" class="input droidFont" placeholder="01 Jan 2010">
+				</div>
+				<div class="form-group clearfix">
+					<label for="insurance_expires_on">Insurance Expires On</label>
+					<input type="text" id="insurance_expires_on" name="insurance_expires_on" class="input droidFont" placeholder="01 Mar 2010">
+				</div>
+			</div>
+			<p class="insuranceUploadTitle">Please upload copy of your public liability insurance cover certificate <a href="#">See example</a></p>
+			<div class="box">
+				<div class="insuranceCertificate clearfix">
+					<label for="insurance_certificate">Liability Insurance Certificate</label>
+					<div class="inputFile">
+						<button></button>
+						<input type="file">
+					</div>
+				</div>
+				<p class="formats">* File format must be PDF or JPEG, minimal resolution must be 300dpi</p>
+				<h4>Why do we ask this?</h4>
+				<p class="why">
+					We are required to ensure that our clients<br> 
+					invest within their means.<br>
+					Rest assured, this information is kept strictly confidential.
+				</p>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
