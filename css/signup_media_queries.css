@@ -292,7 +292,7 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 475px) {
 	.step16 .passportLicence label{
 		line-height: 10px;
 		padding-left: 44%;
@@ -354,7 +354,7 @@
 		padding-top: 3%;
 	}	
 
-	.step4  .right .formGroup > label , .step6  .right .formGroup > label  {
+	.step4  .right .formGroup > label , .step6  .right .formGroup > label , .step12  .right .formGroup > label  {
 		font-size: medium;
 		line-height: 30px;
 		width: 100%;	
@@ -362,7 +362,7 @@
 	
 	}	
 	
-	.step4  .right .formGroup > input , .step6  .right .formGroup > input , .step6  .right .formGroup > select{ 
+	.step4  .right .formGroup > input , .step6  .right .formGroup > input , .step6  .right .formGroup > select , .step12  .right .formGroup > input , .step12  .right .formGroup > select { 
 		width: 100%;
 		
 	}	
