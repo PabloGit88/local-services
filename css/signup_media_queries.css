@@ -37,6 +37,10 @@
 	 .step8 .qualificationCertificate .inputFile {
 	 	width: 100%;
 	}
+	
+	.step8 .qualificationCertificate label {
+	 font-size: 12px;
+	}
 }
 
 
@@ -133,12 +137,33 @@
     /* the next props are meant to keep this block independent from the other floated one */
     width: 100%;
     overflow: hidden;
+	}
+
+	.step14 .right {
+		width: 100%;
+	
+	}	
 }
 
-.step14 .right {
-	width: 100%;
 
-}	
+@media screen and (max-width: 550px) {
+	.step15 .addressContent label {
+		width: 100%;
+	}
+	
+	 .step15 .utilityBill  .inputFile{
+	 	width: 100%;
+	}
+	
+	.step15 .addressContent label {
+	 font-size: 12px;
+	}
+	
+	.step15 .box .addressContent img {
+	max-width: 100%;
+	margin: 10px auto 20px auto;
+	display: block;
+	}
 	
 }
 
