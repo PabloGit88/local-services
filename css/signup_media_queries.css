@@ -241,8 +241,8 @@
 	}
 	
 	.step16 .passportLicence  label {
-	 font-size: 12px;
-	 padding-left: 55%;
+		line-height: 15px;
+		padding-left: 41%;
 	}
 	
 	.step16 .box .passportLicence img {
@@ -271,9 +271,39 @@
 	}
 }
 
+@media screen and (max-width: 320px) {
+	.step16 .passportLicence label{
+		line-height: 10px;
+		padding-left: 44%;
+	}
+	.step10 .workLocation > div.tagsinput{
+		padding: 0;
+	}
+	.step9 .availability_row .item.hours p{
+		width:60%;
+		font-size:13px;
+	}
+	.step9 .availability_row .item p{
+		font-size:13px;
+	}
+	.step9 select {
+		width: 100%;
+	}
+}
 
-
-
-
-
+@media screen and (max-width: 360px) {
+	.step10 .workLocation > div.tagsinput{
+		padding: 0;
+	}
+	.step9 .availability_row .item.hours p{
+		width:60%;
+		font-size:13px;
+	}
+	.step9 .availability_row .item p{
+		font-size:13px;
+	}
+	.step9 select {
+		width: 100%;
+	}
+}
 

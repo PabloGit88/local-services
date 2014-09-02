@@ -961,16 +961,23 @@ font-weight: bold;
 	font-size: 20px;
 	font-weight: bold;
 	color: #000000;
-	line-height: 0px;
-	width: 35%;
+	line-height: 26px;
+	width: 70%;
 	float: left;
-	margin-top: 37px;
+	margin-top: 0;
 	margin-left: 9%;
 }
-
+.step9 .availability_row .item .container{
+	float: right;
+	width: 60%;
+	margin-top: 26px;
+}
+.step9 .availability_row .item .checkboxContainer{
+	display: inline-block;
+	width: 100%;
+}
 .step9 .availability_row .item .checkboxs{
-	position: absolute;
-	right: 4px;
+	float:right;
 }
 
 .step9 .availability_row .item .checkbox input{
@@ -979,22 +986,9 @@ font-weight: bold;
 	margin-top:50px;
 }
 
-.step9 .availability_row .item .checkbox1 input{
+.step9 .availability_row .item .checkboxs input{
 	width: 31px;
 	height: 26px;
-	margin-top:24px;
-}
-
-.step9 .availability_row .item .checkbox2 input{
-	width: 31px;
-	height: 26px;
-	margin-top: 63px
-}
-
-.step9 .availability_row .item .checkbox3 input{
-	width: 31px;
-	height: 26px;
-	margin-top: 101px;
 }
 .step9 .availability_row .item .image_calendar{	
 	background-image: url(../images/signup/step9_calendar.png);
