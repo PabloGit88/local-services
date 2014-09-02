@@ -442,6 +442,17 @@
 		background-size: contain;
 		line-height: 17px;
 		display: inline-block;
+		padding-left: 66px;
+	}
+	
+	.step8 .qualificationCertificate label{
+		float: left;
+		background: url(../images/signup/step5_ico.png) no-repeat;
+		font-size: 14px;
+		font-weight: bold;
+		background-size: contain;
+		line-height: 17px;
+		display: inline-block;
 		padding-left: 40px;
 	}
 
