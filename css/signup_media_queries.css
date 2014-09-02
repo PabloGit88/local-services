@@ -442,7 +442,7 @@
 		background-size: contain;
 		line-height: 17px;
 		display: inline-block;
-		padding-left: 66px;
+		padding-left: 40px;
 	}
 
 	.step5 .insuranceCertificate .inputFile, .step8 .qualificationCertificate .inputFile, .step15 .utilityBill .inputFile, .step16 .passportLicence .inputFile {
