@@ -1,5 +1,5 @@
 $(function() {
-	$('.signUp').magnificPopup({
+	$('.user-area li a').magnificPopup({
 		  type: 'iframe'
 		});
 });

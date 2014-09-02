@@ -11,6 +11,10 @@ html {
 	background: #FFFFFF;
 }
 
+body {
+	padding: 0 30px 20px 30px;
+}
+
 a {
 	color: #4c7cbd;
 	text-decoration: none;	
@@ -463,7 +467,7 @@ font-weight: bold;
 }	
 
 .step6  .right .formGroup > div #cityCode  {
-	width: 15%;	
+	width: 13%;	
 
 }	
 
