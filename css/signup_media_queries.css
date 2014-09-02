@@ -545,7 +545,10 @@
 	/*** END STEP 7 ***/
 	
 	
-	
+@media screen and (max-width: 320px) {
+	.step13 .right .formGroup > select{
+		font-size: 13px;
+	}
 }
 
 @media screen and (max-width: 360px) {
@@ -561,6 +564,9 @@
 	}
 	.step9 select {
 		width: 100%;
+	}
+	.step13 .right .formGroup > select {
+		padding: 4px;
 	}
 	
 }
