@@ -65,8 +65,8 @@
 	<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="../js/flowtype.js"></script>
 	<script type="text/javascript">
-	$(function(){
-		parent.goTop();
+	$(window).bind('load', function(){
+		if (typeof parent.popupLoaded == 'function') { parent.popupLoaded(); }		
 	});
 	$('body').flowtype({
 			   minFont :5,

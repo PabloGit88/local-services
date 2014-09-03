@@ -66,8 +66,8 @@
 			   fontRatio : 30
 			}
 		);
-	$(function(){
-		parent.goTop();
+	$(window).bind('load', function(){
+		if (typeof parent.popupLoaded == 'function') { parent.popupLoaded(); }		
 	});
 	</script>
 </body>

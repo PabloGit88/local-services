@@ -54,8 +54,8 @@
 			   fontRatio : 20
 			}
 	);
-	$(function(){
-		parent.goTop();
+	$(window).bind('load', function(){
+		if (typeof parent.popupLoaded == 'function') { parent.popupLoaded(); }		
 	});
 	</script>
 </body>

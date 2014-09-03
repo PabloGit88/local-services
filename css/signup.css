@@ -1260,45 +1260,46 @@ font-weight: bold;
 	padding-top: 3%;
 }	
 
-.step13  .right .formGroup > div:first-child {
+.step13 .right .formGroup > div:first-child {
 	width: 30%;	
 	float:left;
 	line-height: 46px;
 }	
 
-.step13  .right .formGroup > div:last-child  {
+.step13 .right .formGroup > div:last-child  {
 	float:right;
 	width: 68%;	
 }	
 
-.step13  .right .formGroup > div:last-child  select {
+.step13 .right .formGroup > div:last-child  select {
 	width: 100%;	
 }	
 
-.step13  .right .formGroup > label {
+.step13 .right .formGroup > label {
 	float:left;
-	line-height: 46px;
+	line-height: 20px;
 	width: 30%;	
 	text-align: left;
 }	
 
-.step13  .right .formGroup > input {
+.step13 .right .formGroup > input {
 	width: 63%;
 	float:right;
 }	
 
-.step13  .right .formGroup > select {
+.step13 .right .formGroup > select {
 	width: 68%;
 	float:right;
 }	
 
 .step13 .right .formGroup > div #cityCode  {
-	width: 21%;	
+	width: 18%;
+	padding-left: 10px;
 }
 
 .step13 .right .formGroup > div #phoneNumber  {
 	width: 70%;	
-	padding:0;
+	padding-left: 10px;
 }	
 
 .step13 .actions a {

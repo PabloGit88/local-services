@@ -176,7 +176,7 @@
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 550px) {
 	.step13 .left {
 	    width: 100%;
 	    overflow: hidden;

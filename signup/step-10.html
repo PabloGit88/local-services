@@ -36,7 +36,9 @@
 			'width':'65%',
 			'defaultText':'add location',
 		});
-		parent.goTop();
+	});
+	$(window).bind('load', function(){
+		if (typeof parent.popupLoaded == 'function') { parent.popupLoaded(); }		
 	});
 	</script>
 </body>
