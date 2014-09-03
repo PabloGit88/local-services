@@ -3,8 +3,14 @@ function popupLoaded()
 	var magnificPopup = $.magnificPopup.instance;
 	
 	//Resize the popup
-	var popupHeight = magnificPopup.content.find('iframe').contents().find('html').css('height');
-	$('.mfp-content').animate({ height: popupHeight }, 'slow');
+	var frameHeight = magnificPopup.content.find('iframe').contents().find('html').height();
+	var wrapperElement = magnificPopup.content.find('iframe').contents().find('#wrapper');
+	var popupHeight = wrapperElement.height();
+	var pixels = popupHeight + 80;
+	if ( wrapperElement.hasClass( "step11" ) )
+		pixels = pixels + 80;
+	pixels = pixels + 'px';	
+	$('.mfp-content').animate({ height: pixels}, 'slow');
 	
 	//Scroll to top
 	$('html, body').animate({ scrollTop: 0 }, 'slow');
