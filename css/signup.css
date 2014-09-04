@@ -1317,6 +1317,11 @@ font-weight: bold;
 	padding-left: 10px;
 }	
 
+.step13 .actions {
+	padding-top: 10px;
+
+}
+
 .step13 .actions a {
 	background-size: contain;
 	background-repeat: no-repeat;
