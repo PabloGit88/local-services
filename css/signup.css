@@ -58,8 +58,8 @@ html.signup2 .input {
 
 .select {
 	overflow: hidden;
-	background: url(../images/signup/select_arrow.png) no-repeat right #f7f7f7;
-	-webkit-appearance: none;	
+	-webkit-appearance: none;
+	font-weight: bold;	
 }
 
 .img-responsive {
@@ -510,14 +510,14 @@ font-weight: bold;
 	margin-bottom: 30px;
 }
 
+.step5 .insuranceCover .custom-select {
+	margin-top: 12px;
+}
+
 .step5 .insuranceCover select {
 	width: 100%;
 	color: #383737;
 	font-weight: bold;
-	margin-top: 12px;
-	select::-ms-expand {
-	    display: none;
-	}
 }
 
 
@@ -679,7 +679,7 @@ font-weight: bold;
 	float:right;
 }	
 
-.step6  .right .formGroup > select {
+.step6  .right .formGroup > .custom-select {
 	width: 68%;
 	float:right;
 }	
@@ -892,12 +892,15 @@ font-weight: bold;
 }
 
 
-.step7 .experience select{
+.step7 .experience .custom-select {
 	width: 43%;
-	color: #383737;
-	background-color:#FFFFFF;
+	color: #383737;	
 	font-weight: bold;
 	margin-top: 12px;
+}
+
+.step7 .experience .custom-select select {
+	background-color:#FFFFFF;
 }
 
 .step7 .profileProgress{
@@ -1063,12 +1066,15 @@ font-weight: bold;
 	margin-top:25px;
 }
 
-.step9 select{
+.step9 .custom-select {
+	margin-top: 12px;	
 	width: 43%;
-	color: #383737;
-	background-color:#FFFFFF;
+}
+
+.step9 select{
+	color: #383737;	
 	font-weight: bold;
-	margin-top: 12px;
+	background-color:#FFFFFF;	
 }
 
 .step9 .hours{
@@ -1223,7 +1229,7 @@ font-weight: bold;
 	float:right;
 }	
 
-.step12  .right .formGroup > select {
+.step12  .right .formGroup > .custom-select {
 	width: 68%;
 	float:right;
 }	
@@ -1296,9 +1302,10 @@ font-weight: bold;
 	float:right;
 }	
 
-.step13 .right .formGroup > select {
-	width: 100%;
-	}	
+.step13 .right .formGroup > .custom-select {
+	width: 68%;
+	float:right;
+}	
 
 .step13 .right .formGroup > div #cityCode  {
 	width: 18%;
@@ -1394,7 +1401,7 @@ font-weight: bold;
 	float:right;
 }	
 
-.step14 .right .formGroup > select {
+.step14 .right .formGroup > .custom-select {
 	width: 68%;
 	float:right;
 }	
@@ -1507,7 +1514,7 @@ font-weight: bold;
 	padding-top: 14px;
 }
 
-.step16 .country select{
+.step16 .country .custom-select {
 	width:59%;
 	float:right;
 }
@@ -1527,4 +1534,73 @@ select {
 }
 select::-ms-expand{
     display: none;
+}
+
+
+.custom-select {
+	border: 1px solid #eeeded;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 0 2em;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+
+.custom-select:before {
+	content: "";
+	color: #333;
+	display: block;
+	font-size: 1em;
+	height: 100%;
+	line-height: 2.5em;
+	padding: 0 0.625em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	width: 1em;
+	z-index: -1;
+	background: url('../images/signup/select_arrow.png') no-repeat scroll center center #F7F7F7;
+}
+
+.custom-select select {
+	background-color: transparent;
+	border: 0 none;
+	box-shadow: none;
+	color: #333;
+	display: block;
+	font-size: 100%;
+	line-height: normal;
+	margin: 0;
+	padding: .5em;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.custom-select select::-ms-expand {
+	display: none; /* to ie 10 */
+}
+
+.custom-select select:focus {
+	outline: none;
+}
+
+/* little trick for custom select elements in mozilla firefox  17/06/2014 @rodrigoludgero */
+
+/* pseudo class https://developer.mozilla.org/en-US/docs/Web/CSS/:any */
+
+:-moz-any(.custom-select):before {
+	background-color: #fff; /* this is necessary for overcome the caret default browser */
+	pointer-events: none; /* https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events  */
+	z-index: 1; /* this is necessary for overcome the pseudo element */
 }
