@@ -127,14 +127,26 @@
 }
 
 
-@media screen and (max-width: 727px) {
-	.step9 .availability_row .item:first-child {
+@media screen and (max-width: 680px)  and (min-width: 550px)  {
 
-	width:100%;
+	.step9 .availability_row .item.hours p{
+		font-size: 15px;
+		width: 60%;
+	}
+	
+	.step9 .availability_row .item p{
+		font-size: 15px;
+	}
+	
+
+}
+
+@media screen and (max-width: 550px) {
+	.step9 .availability_row .item:first-child {
+		width:100%;
 	}
 	
 	.step9 .availability_row .item:last-child {
-		
 		width:100%;
 	}
 	
