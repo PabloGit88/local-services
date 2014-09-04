@@ -1303,8 +1303,9 @@ font-weight: bold;
 }	
 
 .step13 .right .formGroup > .custom-select {
-	width: 68%;
+	width: 100%;
 	float:right;
+	
 }	
 
 .step13 .right .formGroup > div #cityCode  {
