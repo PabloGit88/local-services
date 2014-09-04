@@ -1239,7 +1239,7 @@ font-weight: bold;
 }
 
 .step13 .signupDetails {
-	padding-top: 8%;
+	padding-top: 4%;
 }
 
 .step13 .fields {
@@ -1251,28 +1251,29 @@ font-weight: bold;
 .step13 .left {
     float: left; /* not needed, just for clarification */
     /* the next props are meant to keep this block independent from the other floated one */
-    width: 30%;
+    width: 40%;
     overflow: hidden;
+    padding-top: 10px;
 }
 
 .step13 .right {
-	width: 70%;
+	width: 55%;
     float: right;
 }	
 
-.step13 .right .formGroup  {
+.step13 .right .formGroupd  {
 	padding-top: 3%;
 }	
 
 .step13 .right .formGroup > div:first-child {
-	width: 30%;	
+	width: 0%;	
 	float:left;
-	line-height: 46px;
+	line-height: 53px;
 }	
 
 .step13 .right .formGroup > div:last-child  {
-	float:right;
-	width: 68%;	
+
+	width: 100%;	
 }	
 
 .step13 .right .formGroup > div:last-child  select {
@@ -1280,9 +1281,8 @@ font-weight: bold;
 }	
 
 .step13 .right .formGroup > label {
-	float:left;
-	line-height: 20px;
-	width: 30%;	
+	line-height: 37px;
+	width: 100%;	
 	text-align: left;
 }	
 
@@ -1292,9 +1292,8 @@ font-weight: bold;
 }	
 
 .step13 .right .formGroup > select {
-	width: 68%;
-	float:right;
-}	
+	width: 100%;
+	}	
 
 .step13 .right .formGroup > div #cityCode  {
 	width: 18%;
