@@ -80,6 +80,11 @@
 	.step2 .formText {
 		font-size: 14px;
 	}
+	
+	.img-responsive {
+	max-width: 100%;	
+	padding-top: 32px;
+	}
 }
 
 @media screen and (max-width: 620px) {

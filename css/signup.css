@@ -64,6 +64,7 @@ html.signup2 .input {
 
 .img-responsive {
 	max-width: 100%;	
+
 }
 
 .inputFile {
@@ -254,12 +255,12 @@ html.signup2 .input {
 }
 
 .step2 .signupDetails {
-	width: 60%;
+	width: 51%;
 	float: left;
 }
 
 .step2 .signupFacebook {
-	width: 37%;
+	width: 46%;
 	float: right;
 	padding-left: 10px;
 }
@@ -283,6 +284,7 @@ html.signup2 .input {
 	text-align: center;
 	color: #686666;
 	margin-bottom: 10px;
+	margin-top:-6px;
 }
 
 .step2 .signupFacebook .text4Content {
@@ -293,7 +295,7 @@ html.signup2 .input {
 
 .step2 .signupFacebook .text4 {
 	color: #999797;
-	text-align: left;
+	text-align: center;
 	width: 85%;
 }
 
@@ -330,8 +332,9 @@ html.signup2 .input {
 
 .step2 .signupFacebook a {
 	display: block;
-	padding-left: 20%;
-	margin-top: 20px;
+	padding-right: 12%;
+	margin-left	: 12%;
+	margin-top: 1px;
 }
 
 .step2 .signupContent {
@@ -344,6 +347,8 @@ html.signup2 .input {
 	margin: 0 auto;
 	display: block;
 	text-align: center;
+	margin-left: 27%;
+	margin-top: -61px;
 }
 
 /*** STEP 3 ***/
