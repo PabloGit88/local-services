@@ -44,8 +44,8 @@
 		margin: 0;
 	}
 	.step1 .fbContent p {
-		font-size: 10px;
-		margin-top: 8px;
+		font-size: 8px;
+		margin-top: 6px;
 	}
 	.step1 .bottomContent p {
 		font-size: 8px;
@@ -81,7 +81,7 @@
 		font-size: 14px;
 	}
 	
-	.img-responsive {
+	.step2 .img-responsive {
 	max-width: 100%;	
 	padding-top: 32px;
 	}

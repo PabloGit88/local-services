@@ -107,11 +107,12 @@ html.signup2 .input {
 .step1 .headerContent {
 	position: absolute;
 	top: 30px;
+	width: 100%;
 }
 
 .step1 .headerContent h1 {
 	color: #000000;
-	font-size: 36px;
+	font-size: 38px;
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
@@ -140,9 +141,9 @@ html.signup2 .input {
 .step1 .greenContent {	
 	position: absolute;
 	color: #FFFFFF;
-	top: 31%;
+	top: 24%;
 	/*width: 318px;*/
-	left: 23%;
+	left: 16%;
 }
 
 .step1 .greenContent .text1 {	
@@ -152,7 +153,7 @@ html.signup2 .input {
 
 .step1 .greenContent .line2 .price {	
 	float: left;
-	font-size: 73px;
+	font-size: 82px;
 	margin-left: 15px;
 	margin-right: 10px;
 }
@@ -215,7 +216,7 @@ html.signup2 .input {
 .step1 .bottomContent {
 	width: 100%;
 	position: absolute;
-	bottom: 2%;
+	bottom: 4%;
 }
 
 .step1 .bottomContent p {
@@ -1303,8 +1304,9 @@ font-weight: bold;
 }	
 
 .step13 .right .formGroup > .custom-select {
-	width: 68%;
+	width: 100%;
 	float:right;
+	
 }	
 
 .step13 .right .formGroup > div #cityCode  {
