@@ -605,6 +605,9 @@
 		 width: 0%;
 		 line-height: 0px;
 	}
+	.step12 .right .formGroup > div:last-child {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 480px) {
