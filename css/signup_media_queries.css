@@ -582,6 +582,9 @@
 		line-height: 13px;
 		padding-left: 58px;	
 	}
+	.step12 .right .formGroup > .custom-select {	
+		width: 100%;
+	}
 	.step16 .country .custom-select {
 		width: 100%;
 		margin-top:15px;
