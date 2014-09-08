@@ -570,6 +570,10 @@ font-weight: bold;
 	padding-left: 50px;
 }
 
+.step15 .utilityBill label{
+	padding-left:80px;
+}
+
 .step5 .insuranceCertificate .inputFile, .step8 .qualificationCertificate .inputFile, .step15 .utilityBill .inputFile, .step16 .passportLicence .inputFile {
 	float: right;
 	width: 20%;

@@ -571,6 +571,37 @@
 	.step13 .right .formGroup > select{
 		font-size: 13px;
 	}
+	.step13  .right .formGroup{
+		margin-top:15px;
+	}
+	.step13  .right .formGroup > label {
+		float:none;	
+	}
+	.step15 .utilityBill label{
+		font-size: 11px;
+		line-height: 13px;
+		padding-left: 58px;	
+	}
+	.step16 .country .custom-select {
+		width: 100%;
+		margin-top:15px;
+	}
+	.step16 .passportLicence label{
+		font-size: 12px;
+		line-height: 12px;
+		padding-left: 75px;	
+	}
+	.step14 .right .formGroup > input {
+	
+		padding: 0;
+	}
+	.step14 .right .formGroup > div:last-child {
+		float: none;
+	}
+	.step14 .right .formGroup > div:first-child {
+		 width: 0%;
+		 line-height: 0px;
+	}
 }
 
 @media screen and (max-width: 480px) {
