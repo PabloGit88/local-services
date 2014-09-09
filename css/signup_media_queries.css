@@ -585,6 +585,10 @@
 	.step12 .right .formGroup > .custom-select {	
 		width: 100%;
 	}
+
+	.step12 .right .formGroup > div:last-child {
+		width: 100%;
+	}
 	.step16 .country .custom-select {
 		width: 100%;
 		margin-top:15px;
@@ -594,9 +598,14 @@
 		line-height: 12px;
 		padding-left: 75px;	
 	}
-	.step14 .right .formGroup > input {
-	
+	.step14 .right .formGroup > input{
 		padding: 0;
+		float: none;
+		width: 100%;
+	}
+	.step14 .right .formGroup > label {
+		float: none;
+		width: 100%;
 	}
 	.step14 .right .formGroup > div:last-child {
 		float: none;
@@ -604,9 +613,6 @@
 	.step14 .right .formGroup > div:first-child {
 		 width: 0%;
 		 line-height: 0px;
-	}
-	.step12 .right .formGroup > div:last-child {
-		width: 100%;
 	}
 }
 
